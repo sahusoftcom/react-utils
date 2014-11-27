@@ -12,7 +12,7 @@ module.exports = function(errorObj) {
 
 	message +='<ul>';
 
-	_.forEach(errorObj.errors, function(err,key) {
+	_.forEach(errorObj.errors, function(err, key) {
 		message += '<li>'+err+'</li>';
 	});
 

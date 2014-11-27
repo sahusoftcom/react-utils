@@ -1,6 +1,12 @@
 {
     "name": "ReactUtils",
+    "description": "Utility components for react js",
     "version": "0.0.1",
+    "keywords": [
+        "react-component",
+        "react-utils",
+        "react utility"
+    ],
     "src": "src",
     "test": "test",
     "dist": "dist",
@@ -34,7 +40,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/sahusoftcom/react-utils.git"
+        "url": "git@github.com:sahusoftcom/react-utils.git"
     },
     "devDependencies": {
         "css-loader": "~0.6.6",

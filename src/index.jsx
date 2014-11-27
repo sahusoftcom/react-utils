@@ -14,8 +14,11 @@ window.jQuery = require('jquery');
 window.$ = window.jQuery;
 
 React.renderComponent(
-	<h1>React Utils</h1>,
-    document.getElementById('content')
+	(
+		<div>
+			<h1>React Utils</h1>
+		</div>
+	),document.getElementById('content')
 );
 
 module.exports = {};

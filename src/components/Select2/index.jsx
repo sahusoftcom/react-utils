@@ -17,7 +17,7 @@ module.exports = React.createClass({
         return {
             styleWidth: '100%',
             multiple: false,
-            options: [ {id:1, text: 'option1'}, {id:2, text: 'option2'}],
+            options: [],
             minimumInputLength: 0,
             disabled: false,
             params: {}

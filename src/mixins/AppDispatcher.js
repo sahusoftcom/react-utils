@@ -14,9 +14,8 @@ module.exports = {
 
 	componentDidUnmount: function() {
 
-		for(var i in this.dispatcherTokens) {
+		for(var i in this.dispatcherTokens)
 			AppDispatcher.unregister(this.dispatcherTokens[i]);
-		}
 
 	}
 

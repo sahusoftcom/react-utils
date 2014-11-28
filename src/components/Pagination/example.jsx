@@ -9,17 +9,22 @@ var React = require('react');
 
 var ExampleComponent = React.createClass({
 
-	getInitialState: function(){
+	getInitialState: function() {
+
 		return {pageNo: 2};
+
 	},
 
-	pageChange: function(pageNo){
+	pageChange: function(pageNo) {
+
 		this.setState({
 			pageNo: pageNo
 		});
+
 	},
 
-	render: function(){
+	render: function() {
+
 		return <PaginationComponent
 				totalItems={20}
 				perPage={3}
@@ -27,8 +32,7 @@ var ExampleComponent = React.createClass({
 				maxSize={3}
 				onSelect={this.pageChange} />
 	}
-})
 
-
+});
 
 module.exports = <ExampleComponent />;

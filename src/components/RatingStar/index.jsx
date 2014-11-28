@@ -6,6 +6,8 @@
 
 var React = require('react');
 
+require('./RatingStar.less');
+
 module.exports = React.createClass({
 
 	getInitialState: function() {

@@ -13,12 +13,10 @@ require('./main.less');
 window.jQuery = require('jquery');
 window.$ = window.jQuery;
 
-React.renderComponent(
-	(
-		<div>
-			<h1>React Utils</h1>
-		</div>
-	),document.getElementById('content')
+React.renderComponent((
+	<div>
+		<h1>React Utils</h1>
+	</div>), document.getElementById('content')
 );
 
 module.exports = {};

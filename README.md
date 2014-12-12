@@ -1,4 +1,4 @@
-React=Utils
+React-Utils
 ===========
 
 The missing piece of React.
